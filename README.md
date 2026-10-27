@@ -4,7 +4,7 @@
 
 ## 日常使用
 
-从 [GitHub Releases](https://github.com/lhzlhz380809337-cpu/TalentFit/releases/latest) 下载 **TalentFit-Windows-x64.zip**，解压整个文件夹后双击 **TalentFit.exe**。GitHub 的 Source code 下载项只包含源码，需要按下文步骤构建。
+已构建的本地版本可双击根目录 **TalentFit.exe**；便携包位于 **release/TalentFit-Windows-x64.zip**，完整解压后双击其中的启动器。GitHub 仓库提供源码，需要按下文步骤构建；便携包是否已发布可查看 [GitHub Releases](https://github.com/lhzlhz380809337-cpu/TalentFit/releases)。
 
 - 便携包约 **12.29 MiB**，解压约 **24.23 MiB**。内置 Python，无需安装 Node.js、Python 或 npm。
 - Windows 10 / 11 x64，通过本机 Edge / Chrome 打开独立窗口；找不到时使用默认浏览器。
