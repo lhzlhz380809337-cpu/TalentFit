@@ -1,0 +1,204 @@
+[
+  {
+    "name": "专业知识与技术能力",
+    "dimensionKey": "professional_knowledge",
+    "jobFamily": "general",
+    "verifiable": true,
+    "maxScore": 5,
+    "weight": 1,
+    "anchors": [
+      {
+        "level": 1,
+        "description": "仅有理论了解，简历中找不到该技术/方法论的实际应用案例"
+      },
+      {
+        "level": 2,
+        "description": "参与过相关项目但角色边缘化，运用停留在执行层面"
+      },
+      {
+        "level": 3,
+        "description": "独立完成过该领域标准项目，能正确运用核心方法论解决常规问题"
+      },
+      {
+        "level": 4,
+        "description": "主导过有一定复杂度的项目，结合多种方法论解决非标准问题，有可量化成果"
+      },
+      {
+        "level": 5,
+        "description": "在该领域有体系化建设经验（建立标准/培训他人/跨项目推广），成果获组织级认可"
+      }
+    ]
+  },
+  {
+    "name": "问题解决与根因分析能力",
+    "dimensionKey": "problem_solving",
+    "jobFamily": "general",
+    "verifiable": true,
+    "maxScore": 5,
+    "weight": 1,
+    "anchors": [
+      {
+        "level": 1,
+        "description": "描述停留在\"解决了问题\"，无方法论痕迹"
+      },
+      {
+        "level": 2,
+        "description": "提到使用过分析工具（如5Why/鱼骨图），但为参与而非主导"
+      },
+      {
+        "level": 3,
+        "description": "有完整案例，能看出从现象到根因的逐层推导逻辑"
+      },
+      {
+        "level": 4,
+        "description": "案例体现假设驱动验证、变更点分析等结构化方法，且有数据验证效果"
+      },
+      {
+        "level": 5,
+        "description": "有跨项目/跨部门复杂问题攻关经验，建立过方法论或培训体系，可处理未知问题域"
+      }
+    ]
+  },
+  {
+    "name": "数据分析能力",
+    "dimensionKey": "data_analysis",
+    "jobFamily": "general",
+    "verifiable": true,
+    "maxScore": 5,
+    "weight": 1,
+    "anchors": [
+      {
+        "level": 1,
+        "description": "未提及任何数据工具/方法，或仅泛泛提及\"擅长数据分析\"无案例"
+      },
+      {
+        "level": 2,
+        "description": "提到使用Excel等基础工具做报表/统计，描述表层"
+      },
+      {
+        "level": 3,
+        "description": "有使用统计工具（SPC/MSA等）或编程工具（Python/SQL）完成分析的具体案例"
+      },
+      {
+        "level": 4,
+        "description": "能看出从数据中提炼洞察并驱动决策，工具使用有一定深度（建模/预测）"
+      },
+      {
+        "level": 5,
+        "description": "有搭建数据分析体系/自动化工具的经验，分析结果直接影响过组织级决策"
+      }
+    ]
+  },
+  {
+    "name": "跨部门沟通与协调能力",
+    "dimensionKey": "cross_dept_communication",
+    "jobFamily": "general",
+    "verifiable": true,
+    "maxScore": 5,
+    "weight": 1,
+    "anchors": [
+      {
+        "level": 1,
+        "description": "简历完全没有跨团队/跨部门协作的描述"
+      },
+      {
+        "level": 2,
+        "description": "提到\"配合\"\"协助\"，但角色被动"
+      },
+      {
+        "level": 3,
+        "description": "有主导跨部门会议/项目协调的具体案例"
+      },
+      {
+        "level": 4,
+        "description": "案例体现在存在利益冲突/资源争夺情况下仍推动跨部门达成一致"
+      },
+      {
+        "level": 5,
+        "description": "有跨多部门/多层级（含向上管理）的复杂协调案例，且有制度化机制建设经验"
+      }
+    ]
+  },
+  {
+    "name": "执行力与结果导向",
+    "dimensionKey": "execution_result",
+    "jobFamily": "general",
+    "verifiable": true,
+    "maxScore": 5,
+    "weight": 1,
+    "anchors": [
+      {
+        "level": 1,
+        "description": "描述全部是职责罗列，无量化结果或时间节点"
+      },
+      {
+        "level": 2,
+        "description": "有结果描述但模糊（如\"提升了效率\"），无具体数字"
+      },
+      {
+        "level": 3,
+        "description": "有具体量化结果（如\"将xx指标从A提升到B\"），时间节点清晰"
+      },
+      {
+        "level": 4,
+        "description": "量化结果突出，能看出是在资源/时间紧张约束下达成"
+      },
+      {
+        "level": 5,
+        "description": "有持续多周期/多项目稳定输出高量化结果的证据，体现可复制的执行方法论"
+      }
+    ]
+  },
+  {
+    "name": "学习敏锐度",
+    "dimensionKey": "learning_agility",
+    "jobFamily": "general",
+    "verifiable": false,
+    "maxScore": 4,
+    "weight": 0.8,
+    "anchors": [
+      {
+        "level": 1,
+        "description": "经历单一，长期停留同一技能集，未见主动学习新领域痕迹"
+      },
+      {
+        "level": 2,
+        "description": "有零星新技能学习记录（考证/培训），但与主线工作关联弱"
+      },
+      {
+        "level": 3,
+        "description": "能看出在职业发展中有意识补充新能力以应对新挑战"
+      },
+      {
+        "level": 4,
+        "description": "有从一个专业领域成功跨界到另一领域并取得成果的经历，需面试核实驱动力与可持续性"
+      }
+    ]
+  },
+  {
+    "name": "团队与文化契合度",
+    "dimensionKey": "team_culture_fit",
+    "jobFamily": "general",
+    "verifiable": false,
+    "maxScore": 4,
+    "weight": 0.7,
+    "anchors": [
+      {
+        "level": 1,
+        "description": "无明显信号（默认值，不做负面推断）"
+      },
+      {
+        "level": 2,
+        "description": "中性"
+      },
+      {
+        "level": 3,
+        "description": "职业路径与目标组织的工作节奏/管理风格有一定匹配信号"
+      },
+      {
+        "level": 4,
+        "description": "有体现价值观一致性的间接证据，此为最高等级，需面试核实"
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "name": "talentfit",
+  "private": true,
+  "version": "2.0.0",
+  "description": "HR 智能人岗匹配系统 — 简历解析、多维度评分、雷达图对比与面试问题生成",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.3.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "setup:runtime": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File desktop/setup-runtime.ps1",
+    "package:windows": "npm run build && powershell.exe -NoProfile -ExecutionPolicy Bypass -File desktop/package.ps1",
+    "test": "python/python.exe -B -m unittest discover -s tests -p test_backend.py -v",
+    "test:ui": "node scripts/ui-smoke.mjs",
+    "test:launcher": "python/python.exe -B -m unittest discover -s tests -p test_launcher.py -v",
+    "start": "python/python.exe -B app/server.py",
+    "lint": "eslint .",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.3.0",
+    "tailwind-merge": "^3.0.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.15.30",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "vite": "^6.3.5",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
